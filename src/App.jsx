@@ -9,7 +9,7 @@ function App() {
   });
 
   return (
-    <BrowserRouter basename="/Portfolio-Website/">
+    <BrowserRouter basename="/Portfolio-Website">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<SparklesPreview />} />
