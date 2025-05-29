@@ -21,11 +21,11 @@ function CallToAction() {
     >
       <GsapAnimation>
         <div className="flex flex-col items-center justify-center">
-          <h3 className="text-3xl sm:text-5xl font-bold text-[#F2F2F2] -mb-4 Bricolage drop-shadow-[0_10px_35px_rgba(0,0,0,0.7)]">
+          <h3 className="text-4xl text-center px-5 sm:text-5xl font-bold text-[#F2F2F2] -mb-4 Bricolage drop-shadow-[0_10px_35px_rgba(0,0,0,0.7)]">
             Have project in mind.
           </h3>
           <br />
-          <h3 className="text-3xl sm:text-5xl font-bold text-[#F2F2F2] mb-10 Bricolage drop-shadow-[0_10px_35px_rgba(0,0,0,0.7)]">
+          <h3 className="text-4xl sm:text-5xl font-bold text-[#F2F2F2] mb-10 Bricolage drop-shadow-[0_10px_35px_rgba(0,0,0,0.7)]">
             Let's talk?
           </h3>
         </div>

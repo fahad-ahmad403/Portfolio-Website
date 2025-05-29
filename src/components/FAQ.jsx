@@ -59,7 +59,7 @@ function FAQ() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row md:flex-col text-center lg:text-start gap-12 px-6">
         <div className="flex-1">
           <GsapAnimation>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">
+            <h2 className="text-2xl sm:text-4xl font-extrabold mb-4 leading-tight">
               <span className="text-blue-500 Bricolage">FREQUENTLY</span>
               <span className="text-white pl-3 Bricolage">ASKED</span>
               <br />

@@ -55,9 +55,9 @@ function Projects() {
         </h2>
       </GsapAnimation>
       <GsapAnimation>
-        <h2 className="Bricolage gap-y-3 text-[28px] font-extrabold tracking-tight mt-16 mb-3 sm:flex md:hidden z-10">
+        <h2 className="Bricolage text-4xl font-extrabold tracking-tight mt-16 mb-3 sm:flex md:hidden z-10 px-5 text-center">
           Discover My
-          <span className="text-blue-500 Bricolage pl-2">Top Projects</span>
+          <span className="text-blue-500 Bricolage pl-2">Top Web Projects</span>
         </h2>
       </GsapAnimation>
       <GsapAnimation delay={0.3}>

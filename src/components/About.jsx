@@ -11,7 +11,7 @@ function About() {
     >
       <span className="bg-dot-pattern bg-[length:40px_40px] w-full sm:w-[60%] h-[25%] absolute top-0 left-[50%] translate-x-[-50%]" />
       <GsapAnimation>
-      <h2 className="font-extrabold text-5xl flex justify-center gap-x-3 pt-16">
+      <h2 className="font-extrabold text-4xl flex justify-center gap-x-3 pt-16">
         <span className="text-blue-500 Bricolage z-10">Who</span>
         <span className="text-black Bricolage z-10">am I?</span>
       </h2>

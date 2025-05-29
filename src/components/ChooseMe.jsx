@@ -27,8 +27,8 @@ function ChooseMe() {
   return (
     <section className="flex flex-col justify-center items-center w-full h-auto pb-16 bg-black">
       <GsapAnimation>
-        <h2 className="text-blue-500 text-4xl font-bold flex justify-center py-16 gap-x-2 Bricolage">
-          <span className="text-white Bricolage">Why</span>
+        <h2 className="text-blue-500 text-4xl font-bold py-16 Bricolage text-center px-5">
+          <span className="text-white Bricolage pr-2">Why</span>
           Choose Me?
         </h2>
       </GsapAnimation>
@@ -48,7 +48,7 @@ function ChooseMe() {
                 <div className="relative bg-white rounded-lg w-full h-full p-5 flex flex-col items-center text-center border-t-[5px] border-blue-500">
                   <span className="absolute w-14 h-14 top-3 rounded-full bg-blue-500/30" />
                   <item.icon className="text-blue-500 z-10" size={40} />
-                  <h3 className="text-black duration-300 text-xl font-bold group-hover:text-blue-600 py-5 Bricolage">
+                  <h3 className="text-black duration-300 text-xl font-bold hoverable:group-hover:text-blue-600 py-5 Bricolage">
                     {item.title}
                   </h3>
                   <p className="text-gray-500">{item.description}</p>

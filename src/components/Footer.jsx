@@ -29,11 +29,11 @@ export default function Footer() {
             <a
               href="https://www.upwork.com/freelancers/~0194f6a4d1b81491e0"
               target="_blank"
-              className="hover:text-blue-500"
+              className="hoverable:hover:text-blue-500 touch:active:text-blue-500"
             >
               Contact
             </a>
-            <a href="#aboutSection" className="hover:text-blue-500">
+            <a href="#aboutSection" className="hoverable:hover:text-blue-500 touch:active:text-blue-500">
               About
             </a>
           </nav>
@@ -41,21 +41,21 @@ export default function Footer() {
             <a
               href="https://github.com/fahad-ahmad403"
               target="_blank"
-              className="hover:text-blue-500"
+              className="hoverable:hover:text-blue-500 touch:active:text-blue-500"
             >
               <Github size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/fahad-ahmad-246477302/"
               target="_blank"
-              className="hover:text-blue-500"
+              className="hoverable:hover:text-blue-500 touch:active:text-blue-500"
             >
               <Linkedin size={20} />
             </a>
           </div>
           <div
             onClick={() => window.scrollTo(0, 0)}
-            className="text-base hover:text-blue-500 cursor-pointer"
+            className="text-base hoverable:hover:text-blue-500 cursor-pointer touch:active:text-blue-500"
           >
             fahadahmad48224@gmail.com
           </div>

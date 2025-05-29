@@ -25,7 +25,7 @@ const GradientCard = ({ children, colors }) => {
       className="max-w-[350px] h-full rounded-lg relative group"
     >
       <div
-        className="absolute inset-0 z-20 transition-opacity duration-300 group-hover:opacity-100 opacity-0 pointer-events-none"
+        className="absolute inset-0 z-20 transition-opacity duration-300 hoverable:group-hover:opacity-100 opacity-0 pointer-events-none"
         style={{
           backgroundImage: `radial-gradient(circle at ${pos.x}px ${pos.y}px,
             ${colors[0]} 0%,
