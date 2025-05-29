@@ -27,7 +27,7 @@ function ChooseMe() {
   return (
     <section className="flex flex-col justify-center items-center w-full h-auto pb-16 bg-black">
       <GsapAnimation>
-        <h2 className="text-blue-500 text-4xl font-bold py-16 Bricolage text-center px-5">
+        <h2 className="text-blue-500 text-4xl md:text-5xl font-bold py-16 Bricolage text-center px-5">
           <span className="text-white Bricolage pr-2">Why</span>
           Choose Me?
         </h2>
