@@ -8,7 +8,7 @@ export default function ArrowButton({ className = "", spanclassName = "", aclass
       className={`${aclassName}`}
     >
       <button
-        className={`flex rounded-lg py-3 px-6 hoverable:hover:scale-[0.95] duration-300 overflow-hidden group relative mt-6 touch:active:border-2 touch:active:border-black ${className}`}
+        className={`flex rounded-lg py-3 px-6 hoverable:hover:scale-[0.95] duration-300 overflow-hidden group relative touch:active:border-2 touch:active:border-black ${className}`}
       >
         <span
           className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5 h-5  rounded-full opacity-0 transition-all duration-500 hoverable:group-hover:w-[300px] hoverable:group-hover:h-[300px] hoverable:group-hover:opacity-100 z-0 ${spanclassName}`}

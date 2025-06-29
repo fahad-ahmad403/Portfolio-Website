@@ -38,7 +38,7 @@ function CallToAction() {
           if (!isMobile) setBtnHovered(false);
         }}
       >
-        <ArrowButton className="bg-white text-black shadow-[7px_10px_15px_rgba(0,0,0,0.7)] mt-0" />
+        <ArrowButton className="bg-white text-black shadow-[7px_10px_15px_rgba(0,0,0,0.7)]" />
       </div>
     </section>
   );

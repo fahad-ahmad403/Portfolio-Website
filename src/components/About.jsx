@@ -37,7 +37,7 @@ function About() {
             beautiful and functional.
           </p>
           </GsapAnimation>
-          <div className="flex justify-center lg:justify-start gap-x-5 mt-5">
+          <div className="flex justify-center lg:justify-start gap-x-5 my-5">
             <a target="_blank" href="https://github.com/fahad-ahmad403">
               <Github className="text-blue-500 text-xl hoverable:hover:text-blue-600 transition duration-300" />
             </a>
@@ -45,7 +45,7 @@ function About() {
               <Linkedin className="text-blue-500 text-xl hoverable:hover:text-blue-600 transition duration-300" />
             </a>
           </div>
-          <ArrowButton className="text-blue-500 bg-black hoverable:hover:text-black" spanclassName="bg-blue-600" aclassName="flex justify-center lg:justify-start" />
+          <ArrowButton className="text-blue-500 bg-black hoverable:hover:text-black" spanclassName="bg-blue-600" aclassName="flex justify-center lg:justify-start w-fit" />
         </div>
         <img className="w-[300px] z-10" loading="lazy" src={Image} alt="Profile picture." />
       </div>
