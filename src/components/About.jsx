@@ -45,7 +45,7 @@ function About() {
               <Linkedin className="text-blue-500 text-xl hoverable:hover:text-blue-600 transition duration-300" />
             </a>
           </div>
-          <ArrowButton className="text-blue-500 bg-black hoverable:hover:text-black" spanclassName="bg-blue-600" aclassName="flex justify-center lg:justify-start w-fit" />
+          <ArrowButton className="text-blue-500 bg-black hoverable:hover:text-black" spanclassName="bg-blue-600" aclassName="flex justify-center lg:justify-start w-fit mx-auto lg:mx-0" />
         </div>
         <img className="w-[300px] z-10" loading="lazy" src={Image} alt="Profile picture." />
       </div>

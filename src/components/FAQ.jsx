@@ -72,7 +72,7 @@ function FAQ() {
               get back to you ASAP.
             </p>
           </GsapAnimation>
-          <ArrowButton className="bg-white text-black" aclassName="flex justify-center lg:justify-start w-fit" />
+          <ArrowButton className="bg-white text-black" aclassName="flex justify-center lg:justify-start w-fit mx-auto lg:mx-0" />
         </div>
         <div className="flex-1">
           <Accordion
