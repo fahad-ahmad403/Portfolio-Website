@@ -53,12 +53,12 @@ export default function Footer() {
               <Linkedin size={20} />
             </a>
           </div>
-          <div
+          {/* <div
             onClick={() => window.scrollTo(0, 0)}
             className="text-base hoverable:hover:text-blue-500 cursor-pointer touch:active:text-blue-500"
           >
             fahadahmad48224@gmail.com
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

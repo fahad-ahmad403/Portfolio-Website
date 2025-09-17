@@ -13,7 +13,7 @@ export function SparklesPreview() {
     <>
       <section
         id="heroSection"
-        className="min-h-[620px] w-full bg-black overflow-hidden relative"
+        className="min-h-screen w-full bg-black overflow-hidden relative"
       >
         <div className="flex flex-col items-center pt-40 sm:pt-44">
           <span className="bg-[radial-gradient(closest-side,_rgba(59,131,246,0.7),_rgb(0,0,0))] w-[500px] h-[300px] top-[-150px] md:w-[700px] md:h-[500px] absolute md:top-[-250px]" />
